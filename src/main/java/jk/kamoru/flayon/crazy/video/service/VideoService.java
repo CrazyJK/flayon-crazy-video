@@ -2,11 +2,11 @@ package jk.kamoru.flayon.crazy.video.service;
 
 import java.util.List;
 
-import jk.kamoru.flayon.crazy.video.domain.Actress;
 import jk.kamoru.flayon.crazy.video.domain.Search;
-import jk.kamoru.flayon.crazy.video.domain.Studio;
 import jk.kamoru.flayon.crazy.video.domain.Tag;
 import jk.kamoru.flayon.crazy.video.domain.Video;
+import jk.kamoru.flayon.crazy.video.domain.Video.Actress;
+import jk.kamoru.flayon.crazy.video.domain.Video.Studio;
 
 /**
  * Service list<br>
