@@ -9,22 +9,36 @@ import jk.kamoru.flayon.crazy.video.domain.Tag;
 import jk.kamoru.flayon.crazy.video.domain.Video;
 
 /**
- * <pre>
- * Service list
+ * Service list<br>
  * 
- *  1. video list at specific limited
- *  2. a video detail info
- *  3. all studio list
- *  4. a studio detail info
- *  5. all actress list
- *  6. a actress detail info
- *  7. all tag list
- *  8. a tag detail list
- *  9. patch video info
- * 10. patch studio info
- * 11. patch actress info
- * 12. patch tag info
- * </pre>
+ * <ol>
+ * Video
+ * <li> video list at specific limited
+ * <li> a video detail info
+ * <li> patch video info
+ * </ol>
+ * 
+ * <ol>
+ * Studio
+ * <li> all studio list
+ * <li> a studio detail info
+ * <li> patch studio info
+ * </ol>
+ *  
+ * <ol>
+ * Actress
+ * <li> all actress list
+ * <li> a actress detail info
+ * <li> patch actress info
+ * </ol>
+ *  
+ * <ol>
+ * Tag
+ * <li> all tag list
+ * <li> a tag detail list
+ * <li> patch tag info
+ * </ol>
+ *  
  */
 public interface VideoService {
 
